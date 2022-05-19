@@ -1,0 +1,64 @@
+.topfold{
+    display: flex;
+    background-color: peachpuff;
+    padding: 8px;
+    margin: 8px;
+    align-items: center;
+    border: 4px solid green;
+    border-radius: 8px;
+}
+.home-topfold{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+.searchbar{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;
+    width: 50%;
+}
+.searchbar input{
+    outline: none;
+    border: none;
+    width: 75%;
+    margin-left: 8px;
+    size: 52px;
+    font-size: 16px;
+}
+.searchbar svg{
+    margin-left: 8px;
+}
+.add-btn{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: white;
+    padding: 0 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.add-btn svg{
+    margin-right: 4px;
+}
+.add-topfold{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+.add-topfold-btn{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.add-topfold-btn svg{
+    margin-right: 4px;
+}

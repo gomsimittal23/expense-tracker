@@ -1,0 +1,8 @@
+.expenselist{
+    border: 2px solid green;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex: 1
+}
